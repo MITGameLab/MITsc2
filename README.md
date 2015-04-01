@@ -1,4 +1,4 @@
-MITsc2
+MIT Overseer Project
 ======
 
-MIT Game Lab's sc2 observer mods and interfaces
+The MIT Overseer project provides broadcasters of competitive digital games with real-time graphics to help them tell the story of a game while it is in progress. This disclosure covers code, design and graphical assets built with game modification tools provided by Blizzard Entertainment with their game "StarCraft 2: Heart of the Swarm". The code developed for the project includes experiments with several different ways of displaying what happened in the past in an ongoing game of StarCraft 2, visualizing what is currently occurring on screen, and anticipating what might happen in the near future.
