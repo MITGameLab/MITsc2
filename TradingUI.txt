@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+
+    <Frame type="Frame" name="GameUI/UIContainer/FullscreenUpperContainer" file="GameUI">
+
+        <Frame type="Frame" name="TradingFrame">
+            <Visible val="true"/>
+            <CollapseLayout val="false"/>
+            <Height val="500"/>
+            <Width val="500"/>
+            <Anchor relative="$parent/ChatBar"/>
+
+            <Frame type="Image" name="TradingReportBackground">
+                <Anchor relative="$parent"/>
+                <Texture val="Assets/Textures/White.dds"/>
+                <Color val="15,15,15"/>
+                <RenderPriority val="510"/>
+                <Alpha val="0"/>
+            </Frame>
+
+            <Frame type="Label" name="TradingReportLine1">
+                <Anchor side="Left" relative="$parent" pos="Min" offset="10"/>
+                <Anchor side="Right" relative="$parent" pos="Max" offset="-10"/>
+                <Anchor side="Top" relative="$parent" pos="Min" offset="10"/>
+                <Anchor side="Bottom" relative="$parent" pos="Mid" offset="-5"/>
+                <Style val="TradingReportStyle"/>
+                <RenderPriority val="511"/>
+                <Text val="BBoongBBoong efficiently traded army value. (-73% vs -82%)"/>
+            </Frame>
+
+            <Frame type="Label" name="TradingReportLine2">
+                <Anchor side="Left" relative="$parent" pos="Min" offset="10"/>
+                <Anchor side="Right" relative="$parent" pos="Max" offset="-10"/>
+                <Anchor side="Top" relative="$parent" pos="Mid" offset="5"/>
+                <Anchor side="Bottom" relative="$parent" pos="Max" offset="-10"/>
+                <Style val="TradingReportStyle"/>
+                <RenderPriority val="511"/>
+                <Text val="but BBoongBBoong killed more gas value. (850)"/>
+            </Frame>
+        </Frame>
+    </Frame>
+</Desc>
